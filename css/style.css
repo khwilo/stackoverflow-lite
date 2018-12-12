@@ -1,0 +1,104 @@
+*  {
+    text-decoration: none;
+    list-style-type: none;
+    margin         : 0px;
+    padding        : 0px;
+    outline        : none;
+}
+
+body {
+    margin          : 0px;
+    padding         : 0px;
+    font-family     : 'Open Sans', sans-serif;
+    background-color: #ebf0f6;
+}
+
+section {
+    width    : 100%;
+    max-width: 1200px;
+    margin   : 0px auto;
+    display  : table;
+    position : relative;
+}
+
+header {
+    width           : 100%;
+    display         : table;
+    background-color: #98ccd3;
+    margin-bottom   : 50px;
+}
+
+#logo {
+    float      : left;
+    font-size  : 24px;
+    color      : #ebf0f6;
+    font-weight: 600;
+    padding    : 20px 0px;
+}
+
+#logo:hover {
+    color: #132238;
+}
+
+nav {
+    width: auto;
+    float: right;
+}
+
+nav ul {
+    display: table;
+    float  : right;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li:last-child {
+    padding-right: 0px;
+}
+
+nav ul li a {
+    color     : #132238;
+    font-size : 18px;
+    padding   : 25px 20px;
+    display   : inline-block;
+    transition: all 0.5s ease 0s;
+}
+
+nav ul li a:hover {
+    background-color: #132238;
+    color           : #ebf0f6;
+    transition      : all 0.5s ease 0s;
+}
+
+nav ul li a:hover i {
+    color     : #ebf0f6;
+    transition: all 0.5s ease 0s;
+}
+
+nav ul li a i {
+    padding-right: 10px;
+    color        : #132238;
+    transition   : all 0.5s ease 0s;
+}
+
+.toggle-menu ul {
+    display: table;
+    width  : 25px;
+}
+
+.toggle-menu ul li {
+    width           : 100%;
+    height          : 3px;
+    background-color: #132238;
+    margin-bottom   : 4px;
+}
+
+.toggle-menu ul li:last-child {
+    margin-bottom: 0px;
+}
+
+input[type=checkbox], label {
+    display: none;
+}
