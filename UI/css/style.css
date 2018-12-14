@@ -323,11 +323,42 @@ main {
     text-align   : center;
     margin-bottom: 10px;
 }
+
+.accept-reject-container {
+    display       : flex;
+    flex-direction: row;
+    margin-top    : 20px;
+}
+
+.accept-reject-container button {
+    padding    : 5px;
+    border     : none;
+    font-weight: 900;
+    border     : 1px solid black;
+}
+
+.accept-reject-container button:hover {
+    background-color: #132238;
+}
+
+.accept-reject-container button i {
+    padding-right: 2px;
+}
+
+.answer-details {
+    overflow-wrap: break-word;
+}
+
+.reject {
+    margin-left: 5px;
+}
+
 .markdown {
     background-color: #cddbf2;
     padding         : 5px;
     border-radius   : 5px;
 }
+
 footer {
     display         : table;
     padding-bottom  : 30px;
