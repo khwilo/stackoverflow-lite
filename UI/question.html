@@ -64,37 +64,53 @@
                                 <div class="answer-number">
                                     <p>1</p>
                                 </div>
-                                <div class="answer">
-                                    <p>Navigate to the projects/makefile folder and type:</p>
-                                    <div class="markdown">
-                                        <p>$ make</p>
-                                        <p>$ make install</p>
+                                <div class="answer-container">
+                                    <div class="answer">
+                                        <div class="answer-details">
+                                            <p>Navigate to the projects/makefile folder and type:</p>
+                                            <div class="markdown">
+                                                <p>$ make</p>
+                                                <p>$ make install</p>
+                                            </div>
+                                            <p>Then you can use this library simply including SOIL.h in your C++ file.</p>
+                                        </div>
+                                        <div class="accept-reject-container">
+                                            <button class="accept"><i class="fa fa-chevron-up" aria-hidden="true"></i>ACCEPT</button>
+                                            <button class="reject"><i class="fa fa-chevron-down" aria-hidden="true"></i>REJECT</button>
+                                        </div>
                                     </div>
-                                    <p>Then you can use this library simply including SOIL.h in your C++ file.</p>
                                 </div>
                             </div>
                             <div class="answers">
                                 <div class="answer-number">
                                     <p>2</p>
                                 </div>
-                                <div class="answer">
-                                    <p>
-                                        As suggested on Compiling OpenGL SOIL on Ubuntu,
-                                        First download the SOIL.h header file from its website
-                                        <a href="http://www.lonesock.net/soil.html">http://www.lonesock.net/soil.html</a>.
-                                        Place the header file in your project directory and include it in your project file.
-                                    </p>
-                                    <div class="markdown">
-                                        <p>#include "SOIL.h"</p>
+                                <div class="answer-container">
+                                    <div class="answer">
+                                        <div class="answer-details">
+                                            <p>
+                                                As suggested on Compiling OpenGL SOIL on Ubuntu,
+                                                First download the SOIL.h header file from its website
+                                                <a href="http://www.lonesock.net/soil.html">http://www.lonesock.net/soil.html</a>.
+                                                Place the header file in your project directory and include it in your project file.
+                                            </p>
+                                            <div class="markdown">
+                                                <p>#include "SOIL.h"</p>
+                                            </div>
+                                            <p>
+                                                After that you have to install the soil library to use -lSOIL.
+                                                To install the library use the command
+                                            </p>
+                                            <div class="markdown">
+                                                <p>sudo apt-get install libsoil-dev</p>
+                                            </div>
+                                            <p>Now compile the project using gcc along with -lSOIL</p>
+                                        </div>
+                                        <div class="accept-reject-container">
+                                            <button class="accept"><i class="fa fa-chevron-up" aria-hidden="true"></i>ACCEPT</button>
+                                            <button class="reject"><i class="fa fa-chevron-down" aria-hidden="true"></i>REJECT</button>
+                                        </div>
                                     </div>
-                                    <p>
-                                        After that you have to install the soil library to use -lSOIL.
-                                        To install the library use the command
-                                    </p>
-                                    <div class="markdown">
-                                        <p>sudo apt-get install libsoil-dev</p>
-                                    </div>
-                                    <p>Now compile the project using gcc along with -lSOIL</p>
                                 </div>
                             </div>
                             <div class="answer-label">
