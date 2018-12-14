@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Stack Overflow Lite | Question</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <section>
+                <a id="logo" href="#">Stack Overflow Lite</a>
+
+                <label for="toggle-collapse" class="toggle-menu">
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </label>
+                <input type="checkbox" id="toggle-collapse" />
+
+                <nav>
+                    <ul>
+                        <li><a href="#"><i class="fa fa-home" aria-hidden="true"></i>Home</a></li>
+                        <li><a href="#contact"><i class="fa fa-phone" aria-hidden="true"></i>Contact</a></li>
+                        <li><a href="index.html"><i class="fa fa-sign-out" aria-hidden="true"></i>Sign Out</a></li>
+                    </ul>
+                </nav>
+            </section>
+        </header>
+
+        <main>
+            <div class="container">
+                <section>
+                    <div class="user-timeline">
+                        <div class="ask-button">
+                            <button onclick="location.href='ask.html'">Ask Question</button>
+                        </div>
+                        <div class="posts">
+                            <div class="title-content">
+                                <p>How do I install SOIL (Simple OpenGL Image Loader)?</p>
+                            </div>
+                            <div class="question-content">
+                                <p>
+                                    The SOIL website doesn't have any installation instructions.
+                                    The file I downloaded has no readme. I failed to find anything with Google.
+                                    I doubt g++ is going to check every directory on my computer to see if
+                                    it can find it. Is there a specific folder I'm supposed to put it in?
+                                    Is there a script I'm supposed to run?
+                                    I'm using Ubuntu.
+                                </p>
+                            </div>
+                            <div class="answer-label">
+                                <p>Your Answer</p>
+                            </div>
+                            <div id="toolbar">
+                                <button class="btn fa fa-bold" onclick="document.execCommand('bold',true,'' )"></button>
+                                <button class="btn fa fa-italic" onclick="document.execCommand('italic', true, '')"></button>
+                            </div>
+                            <div id="myEditor" contenteditable="true">
+                                <h1>Heading</h1>
+                                <p>Contents of your question go here. Be as descriptive as possible.</p>
+                            </div>
+                            <div class="qa-submit">
+                                <button>Post your answer</button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+
+        <footer>
+            <ul id="contact" class="social-media">
+                <li><a href="https://twitter.com/khwilo" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                <li><a href="https://github.com/khwilo" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+                <li><a href="https://linkedin.com/in/khwilo-watai" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+            </ul>
+        </footer>
+    </div>
+</body>
+</html>
