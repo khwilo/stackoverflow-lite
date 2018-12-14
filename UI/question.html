@@ -42,18 +42,60 @@
                             <button onclick="location.href='ask.html'">Ask Question</button>
                         </div>
                         <div class="posts">
-                            <div class="title-content">
-                                <p>How do I install SOIL (Simple OpenGL Image Loader)?</p>
+                            <div class="post-contents">
+                                <div class="title-content">
+                                    <p>How do I install SOIL (Simple OpenGL Image Loader)?</p>
+                                </div>
+                                <div class="question-content">
+                                    <p>
+                                        The SOIL website doesn't have any installation instructions.
+                                        The file I downloaded has no readme. I failed to find anything with Google.
+                                        I doubt g++ is going to check every directory on my computer to see if
+                                        it can find it. Is there a specific folder I'm supposed to put it in?
+                                        Is there a script I'm supposed to run?
+                                        I'm using Ubuntu.
+                                    </p>
+                                </div>
                             </div>
-                            <div class="question-content">
-                                <p>
-                                    The SOIL website doesn't have any installation instructions.
-                                    The file I downloaded has no readme. I failed to find anything with Google.
-                                    I doubt g++ is going to check every directory on my computer to see if
-                                    it can find it. Is there a specific folder I'm supposed to put it in?
-                                    Is there a script I'm supposed to run?
-                                    I'm using Ubuntu.
-                                </p>
+                            <div class="answer-label">
+                                <p>Answers</p>
+                            </div>
+                            <div class="answers">
+                                <div class="answer-number">
+                                    <p>1</p>
+                                </div>
+                                <div class="answer">
+                                    <p>Navigate to the projects/makefile folder and type:</p>
+                                    <div class="markdown">
+                                        <p>$ make</p>
+                                        <p>$ make install</p>
+                                    </div>
+                                    <p>Then you can use this library simply including SOIL.h in your C++ file.</p>
+                                </div>
+                            </div>
+                            <div class="answers">
+                                <div class="answer-number">
+                                    <p>2</p>
+                                </div>
+                                <div class="answer">
+                                    <p>
+                                        As suggested on Compiling OpenGL SOIL on Ubuntu,
+                                        First download the SOIL.h header file from its website
+                                        <a href="http://www.lonesock.net/soil.html">http://www.lonesock.net/soil.html</a>.
+                                        Place the header file in your project directory and include it in your project file.
+                                    </p>
+                                    <div class="markdown">
+                                        <p>#include "SOIL.h"</p>
+                                    </div>
+                                    <p>
+                                        After that you have to install the soil library to use -lSOIL.
+                                        To install the library use the command
+                                    </p>
+                                    <div class="markdown">
+                                        <p>sudo apt-get install libsoil-dev</p>
+                                    </div>
+                                    <p>Now compile the project using gcc along with -lSOIL</p>
+                                </div>
                             </div>
                             <div class="answer-label">
                                 <p>Your Answer</p>
