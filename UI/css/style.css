@@ -359,6 +359,44 @@ main {
     border-radius   : 5px;
 }
 
+.comment-container {
+    border-top : 1px solid gray;
+    margin-top : 10px;
+    padding-top: 5px;
+}
+
+textarea.comment-textarea {
+    width  : 90%;
+    border : 3px solid #cccccc;
+    padding: 5px;
+    resize : vertical;
+}
+
+.add-comment-btn {
+    margin-bottom: 5px;
+}
+
+.add-comment-btn {
+    border          : none;
+    padding         : 5px;
+    background-color: #ebf0f6;
+    text-transform  : uppercase;
+    border-bottom   : 2px dashed #132238;
+}
+
+.add-comment-btn:hover {
+    font-weight: 700;
+}
+
+.comment-post {
+    display: none;
+}
+
+.comment-btn {
+    padding    : 2px;
+    font-weight: 700;
+}
+
 footer {
     display         : table;
     padding-bottom  : 30px;
