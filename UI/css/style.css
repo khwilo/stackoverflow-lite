@@ -241,7 +241,7 @@ main {
     border: 1px solid #ffffff;
 }
 
-.qa-submit button {
+.qa-submit button, .ask-button button, .remove-button button {
     display        : inline-block;
     border         : none;
     padding        : 1rem 2rem;
@@ -257,6 +257,34 @@ main {
 
 .qa-submit button:hover {
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.user-timeline {
+    margin : 0 auto;
+    padding: 10px;
+    width  : 60%;
+}
+
+.title-content {
+    margin-top: 10px;
+}
+
+.title-content p {
+    font-weight  : 900;
+    font-size    : 18px;
+    border-bottom: 1px solid black;
+}
+
+.posts {
+    margin-top: 20px;
+    padding   : 10px;
+    border    : 2px solid black;
+}
+
+.remove-button button {
+    background-color: red;
+    font-size       : 12px;
+    padding         : 5px;
 }
 
 footer {
