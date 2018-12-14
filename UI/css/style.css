@@ -404,9 +404,6 @@ textarea.comment-textarea {
     position: relative;
 }
 
-.search-question-details:focus {
-}
-
 .submit-question {
     position     : absolute;
     right        : -50px;
@@ -420,7 +417,6 @@ textarea.comment-textarea {
     cursor       : pointer;
     font-size    : 20px;
 }
-
 
 .search-question {
     float        : left;
@@ -437,6 +433,35 @@ textarea.comment-textarea {
 .search-question-container {
     width        : 60%;
     margin-bottom: 20px;
+}
+
+.explore-tags {
+    border-top: 1px solid black;
+    margin-top: 10px;
+}
+
+.question-tag {
+    background-color: #364e68;
+    color           : white;
+    border          : 2px solid black;
+    border-radius   : 5px;
+    padding         : 2px;
+    width           : 70px;
+    height          : 30px;
+    margin-top      : 10px;
+}
+
+.tag-description {
+    display: none;
+}
+
+.question-tag:hover ~ .tag-description {
+    display         : table;
+    background-color: black;
+    padding         : 5px;
+    color           : white;
+    width           : 40%;
+    margin-top      : 5px
 }
 
 footer {
