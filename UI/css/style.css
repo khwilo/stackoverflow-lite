@@ -122,6 +122,19 @@ input[type=checkbox], label {
     text-align: center;
 }
 
+.question-content {
+    margin-top: 5px;
+}
+
+.answer-label {
+    margin-top   : 10px;
+    margin-bottom: 10px;
+    border-bottom: 4px solid black;
+    width        : 100px;
+    padding      : 5px;
+    font-weight  : 700;
+}
+
 @keyframes typing {
     from {
         width: 0;
