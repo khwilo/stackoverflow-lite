@@ -123,12 +123,13 @@ input[type=checkbox], label {
 }
 
 .question-content {
-    margin-top: 5px;
+    margin-top   : 5px;
+    margin-bottom: 10px;
 }
 
 .answer-label {
-    margin-top   : 10px;
-    margin-bottom: 10px;
+    margin-top   : 60px;
+    margin-bottom: 20px;
     border-bottom: 4px solid black;
     width        : 100px;
     padding      : 5px;
@@ -291,7 +292,14 @@ main {
 .posts {
     margin-top: 20px;
     padding   : 10px;
-    border    : 2px solid black;
+}
+
+.user-post {
+    border: 2px solid black;
+}
+
+.post-contents {
+    border-bottom: 2px solid black;
 }
 
 .remove-button button {
@@ -300,6 +308,26 @@ main {
     padding         : 5px;
 }
 
+.answers {
+    border       : 1px solid black;
+    padding      : 20px;
+    margin-bottom: 20px;
+}
+
+.answer-number {
+    border       : 2px solid black;
+    width        : 20px;
+    height       : 20px;
+    border-radius: 50%;
+    padding      : 5px;
+    text-align   : center;
+    margin-bottom: 10px;
+}
+.markdown {
+    background-color: #cddbf2;
+    padding         : 5px;
+    border-radius   : 5px;
+}
 footer {
     display         : table;
     padding-bottom  : 30px;
