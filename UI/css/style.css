@@ -118,8 +118,12 @@ input[type=checkbox], label {
 .about-content {
     margin    : 0px auto 40px auto;
     display   : table;
-    padding   : 5px;
+    padding   : 10px;
     text-align: center;
+}
+
+.sign-up {
+    padding: 10px;
 }
 
 .question-content {
