@@ -286,6 +286,22 @@ main {
     flex-direction: column;
 }
 
+.username-container {
+    border          : 3px solid #98ccd3;
+    border-radius   : 3px;
+    width           : 25%;
+    padding         : 5px;
+    background-color: #98ccd3;
+}
+
+.username-container p {
+    color      : #132238;
+    font-weight: 800;
+}
+
+#username-label {
+    color: white;
+}
 .title-content {
     margin-top: 10px;
 }
@@ -569,5 +585,9 @@ footer {
 
     .user-timeline {
         width: 90%;
+    }
+
+    .username-container {
+        width: 60%;
     }
 }
