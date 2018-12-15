@@ -224,6 +224,7 @@ main {
 #editorContainer{
     max-width: 600px;
     margin   : auto;
+    padding  : 10px;
 }
 
 #title-content {
@@ -560,5 +561,9 @@ footer {
     nav ul li a i {
         color        : #ebf0f6;
         padding-right: 15px;
+    }
+
+    .user-timeline {
+        width: 90%;
     }
 }
